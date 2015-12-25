@@ -1,0 +1,213 @@
+/* 
+* @Author: Jiyun
+* @Date:   2015-06-25 19:30:42
+* @Last Modified by:   Jiyun
+* @Last Modified time: 2015-08-13 04:30:06
+*/
+/*= require jsoneditor/dist/jsoneditor.css */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.78;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-backface-visibility: hidden;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+#wrap {
+  padding: 30px 0 50px 0;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #3fa156;
+  text-decoration: none;
+}
+
+.radio-wrap {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.radio-wrap label {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.radio-block {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.radio-block input,
+.radio-block label {
+  cursor: pointer;
+}
+
+#input-url {
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1;
+  outline: none;
+  width: 500px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: none;
+  border: none;
+  background: #f5f5f5;
+}
+
+button.button {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  padding: 11px 20px 12px 20px;
+  line-height: 1;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  background: #3fa156;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#spider-return {
+  display: none;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#spider-return h4 {
+  display: none;
+}
+
+#spider-return img {
+  max-width: 100%;
+}
+
+#spider-cont {
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+#spider-source,
+.steps ,
+.moviePage{
+  display: none;
+}
+
+#source {
+  width: 100%;
+  min-height: 500px;
+  background: #f55;
+}
+
+code {
+  background-color: #f5f5f5;
+}
+
+#moviePage {
+  width: 100%;
+  height: 425px;
+}
+
+#moviePage h2{
+  color: #007722;
+  margin: 24px 0 3px;
+  font: 15px/150% Arial,Helvetica,sans-serif;
+}
+
+#moviePage p{
+  word-break: break-all;
+  font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+#moviePage .rating_wrap .rating_nums{
+  color: #e09015;
+  font-size: 28px;
+  padding: 0;
+  width: 80px;
+}
+#moviePage .moviePic ul{
+  list-style-type: none;
+  margin-right: -3px;
+  padding: 0;
+  letter-spacing: -0.31em;
+  overflow: hidden;
+}
+#moviePage .moviePic ul li{
+  display: inline-block;
+  letter-spacing: normal;
+  margin-right: 2px;
+  padding: 0;
+  vertical-align: top;
+}
+.related-pic-video {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+}
+a {
+    cursor: pointer;
+}
+.related-pic-video span {
+    background: rgba(0, 0, 0, 0.25) url("http://img3.douban.com/f/movie/fafc0935c2a3a38023f246f6ea76f249a7b2d758/pics/movie/play_btn.png") no-repeat scroll center center;
+    display: block;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    width: 178px;
+}
+#moviePage .moviePic ul li a img {
+    border-width: 0;
+    vertical-align: middle;
+}
+#moviePage .rating_wrap, .movieInfo, .moviePic{
+  margin-bottom: 20px;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #aaa;
+  font-size: 12px;
+}
+.test{
+  margin-top: 200px;
+  width: 100px;
+  height: 100px;
+}
+.test img{
+  width: 90px;
+  height: 90px;
+}

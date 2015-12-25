@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>豆抓</title>
+    <meta name="description" content="抓取豆瓣电影，打包下载电影图片">
+    <meta name="keywords" content="豆瓣，电影">
+    <meta name="author" content="程皓杰">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="theme-color" content="#3baa24">
+    <link rel="shortcut icon" href="img/icon/cursor_drag_hand.png" type="image/x-icon">
+    <link rel="icon" sizes="192x192" href="img/icon/cursor_drag_hand.png">
+    
+  </head>
+  <body>
+    <div id="wrap">
+      <h1><img src="img/icon/cursor_drag_hand.png">豆抓</h1>
+      <form id="form" action="/" method="POST">
+        <div class="radio-wrap">
+          <div class="radio-block">
+            <input type="radio" name="target" value="1" checked="checked">
+            <label>豆瓣相册</label>
+          </div>
+          <div class="radio-block">
+            <input type="radio" name="target" value="2">
+            <label>豆瓣电影</label>
+          </div>
+        </div>
+        <input id="input-url" type="text" name="url" placeholder="输入要打包的相册" value="相册链接">
+        <button type="submit" class="button">豆抓</button>
+      </form>
+      <div id="spider-return">
+        <h4>抓到了！</h4>
+        <div id="spider-cont"></div>
+        <div id="spider-source">
+          <div id="albumPage">
+            <h2></h2>
+          </div>
+          <div id="moviePage">
+            <div class='rating_wrap'>
+              豆瓣评分
+              <span class='rating_nums'></span>
+            </div>
+            <div class='movieInfo'></div>
+            <div class='moviePic'></div>
+          </div>
+          <p class="steps">
+            点击 <a id="download" target="_blank" href="">下载图片压缩包</a><br>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+
+      <p>copyright 2015 by <a href="http://www.douban.com/people/139078233/" target="_blank"> chenghaojie</a></p>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
